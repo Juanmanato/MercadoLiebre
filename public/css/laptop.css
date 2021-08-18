@@ -1,0 +1,51 @@
+@media (min-width:768px) {
+
+.navegacion{
+    font-size: 16px;
+}
+.articulo  {
+    width:25%;
+    box-shadow: none;}
+
+.descripcion {
+    display: none;}
+
+
+.articulo:hover{
+    display:initial;
+    box-shadow: 2px 2px 12px rgb(100, 100, 100);}
+
+.articulo:hover .descripcion{
+    display:initial;
+    
+}
+
+.lista-footer{
+    display:flex;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+.container-footer{
+    width:25%;
+    font-size:8px;
+   
+}
+
+.fa-truck-moving:hover{
+    transition: all 0.5s;
+   transform: rotate(-90deg); 
+
+}
+
+.boton-login-enviar:hover{
+    background-color: #0022AA;
+}
+
+.icono-footer i:hover { 
+    color: red;
+    
+}
+
+}

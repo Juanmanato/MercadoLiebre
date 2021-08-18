@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    padding:24px;
+    margin:0;
+    background-color: #EAC926;
+    font-size:16px;
+}
+
+
+.header-media{
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width:45%;
+}
+.barra{
+    display: flex;
+    align-items: center;
+    width:65%
+}
+.busqueda{
+    width:100%;
+}
+.boton{
+    text-align: center;
+    margin:  10px;
+    border-radius: 3px;
+}
+.fa-bars{
+    color:white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 3px;
+
+}
+
+.fa-hand-holding-usd{
+    color:black;
+}
+.titulo{
+    width: 100%;
+    margin:2px auto;
+    padding: 0;
+
+}
+
+#titulos {
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+
+.fa-search{color:black;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    
+  
+}
+
+
+body{
+    
+    background: white;
+    font-size:12px;
+    
+}
+
+.titulo{
+    text-align:center;
+    font-size: 12px;
+    margin:auto;
+}
+
+.main{
+    margin:0;
+    padding: 0 5%;
+    padding-bottom: 50px;
+    
+}
+
+.banner{
+    margin:0;
+    padding: 0
+}
+
+.navegacion{
+    padding:0;
+}
+section{
+    margin:0;
+    
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.articulo{
+    margin:0;
+    padding:5px;
+
+    
+}
+
+.articulo-descripcion{
+    background-color:white;
+    border-top: 1px solid #ebebeb;
+    width: 100%;
+    position: relative;
+}
+
+.fa-truck-moving{
+    color:#39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right:18px;
+    top: -15px;
+    
+
+    
+
+}
+
+.linea{
+
+    display:none;
+    text-decoration: none;
+    padding: 3px 0 0 0;
+    
+}
+li{ 
+    list-style:none;
+}
+a{ text-decoration: none;}
+    
+
+.precio {
+    font-size: 18px;
+    margin: 0
+}
+
+.descuento {
+    font-size:16px;
+    margin: 0
+}
+
+.descripcion {
+    display:none;
+    font-size:16px;
+
+}
+
+i{color:blue;}
+
+.icono-footer i{
+    color:blue;
+    transition: all 0.3ms;
+}
+
+   
+
+
+footer{
+    text-align:center;
+    margin-left: 10px;
+    margin: right 10px;
+    margin: auto;
+    
+}
+
+.icono-footer{
+    font-size:2em;
+    margin-bottom: 10px;
+
+}
+.lista-footer{
+    
+    padding: 0;
+}
+
+.derechos{
+    margin:0
+}
+
+.main-register{
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+}
+.form-group {
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-left: 40px;
+    margin-right:20px;
+    border: solid 1px black;
+    border-radius:5%;
+  
+}
+
+.div-group{
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.label-titulo {
+    text-transform: uppercase;
+    
+}
+
+.profileVC {
+    text-transform: none;
+    
+}
+
+.botones-register{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.boton-color {
+    padding: auto;
+    margin: 0 10px;
+    background-color:blue
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.form-inside {
+    display: flex;
+
+    padding: 0;
+    margin-top: 10px;
+}
+
+.boton-login {
+    display: flex;
+    margin:auto;
+    padding:auto;
+    
+}
+
+.boton-login-enviar {
+    
+  
+  border-radius: 3px;
+  padding: 0 120px;
+  transition: all 0.5s;
+
+  
+  
+}
+
+/* parche al logo de register y login*/
+.logo2 .logo {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}    
+
+input:required {
+    content: '* Required';
+    color: red !important;
+
+}
