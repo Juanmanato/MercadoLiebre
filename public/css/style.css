@@ -281,8 +281,10 @@ footer{
     margin: 0;
 }    
 
-input:required {
-    content: '* Required';
-    color: red !important;
+input:required +label::after {
+    content: "* Campo Obligatorio: ";
+    color : red;
+    
+    
 
 }
