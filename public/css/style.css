@@ -50,7 +50,8 @@ header{
 }
 
 #titulos {
-    font-size: 20px;
+    font-size: 22px;
+    padding: 0 5px;
     margin: 0;
     
 }

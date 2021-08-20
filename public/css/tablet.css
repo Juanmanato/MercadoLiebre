@@ -71,13 +71,20 @@
         display:inline;
         
         
-    }    
+    }  
+
     i{
         margin-left: 4px;
     }
+    
     .logo2 .logo {
         width: 100%;
         padding: 0;
         margin: 0;
-    }    
+    }
+    
+    #titulos {
+        font-size: 25px;
+    }
+    
 }
