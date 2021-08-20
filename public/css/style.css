@@ -10,7 +10,6 @@ header{
     font-size:16px;
 }
 
-
 .header-media{
     display: flex;
     align-items: center;
@@ -65,6 +64,43 @@ header{
 }
 
 
+
+.carrusel{
+    height:100%;
+    width: 100%;
+    overflow:hidden;
+    background-color: #EAC926;
+    
+}
+
+.slide{
+    display: flex;
+    padding:0;
+    width: 300%;
+
+    animation:cambio 12s infinite;
+}
+
+.item{
+    width: 100%;
+    list-style: none;
+}
+
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+
+    35% {margin-left: -100%;}
+    70% {margin-left: -100%;}
+
+    75% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+
+
+
 body{
     
     background: white;
@@ -80,15 +116,11 @@ body{
 
 .main{
     margin:0;
-    padding: 0 5%;
-    padding-bottom: 50px;
+    padding: 0 5px;
+    
     
 }
 
-.banner{
-    margin:0;
-    padding: 0
-}
 
 .navegacion{
     padding:0;
