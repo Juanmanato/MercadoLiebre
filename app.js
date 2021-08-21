@@ -4,7 +4,9 @@ const path = require('path');
 
 app.listen(precess.env.PORT || 3000, function() {
     console.log('Servidor levantado')})
- 
+
+/*app.listen(3000) 
+        console.log('Servidor levantado')*/    
 
 app.use(express.static(path.join(__dirname, '/public')))
 
