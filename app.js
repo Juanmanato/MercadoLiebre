@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.listen(precess.env.PORT || 3000, function() {
+app.listen(process.env.PORT || 3000, function() {
     console.log('Servidor levantado')})
    
 
