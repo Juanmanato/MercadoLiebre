@@ -7,6 +7,7 @@ const loginRouters = require("./routers/loginRouters")
 
 const app = express();
 
+app.set ("view engine", "ejs");
 
 app.listen(process.env.PORT || 3000, () => {
     console.log('Servidor levantado')})
@@ -16,10 +17,10 @@ app.use(express.static(path.join(__dirname, '../public')))
 
 
 
-app.get('/', indexRouters)
+app.use('/', indexRouters)
 
-app.get("/login", loginRouters) 
+app.use("/login", loginRouters) 
 
-app.get("/register", loginRouters) 
+app.use("/register", loginRouters) 
 
 

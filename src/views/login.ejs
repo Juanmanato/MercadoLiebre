@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tablet.css">
+    <link rel="stylesheet" href="/css/laptop.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body>
+
+    <%- include("./partials/header.ejs") %>
+    
+    <main class= "main">
+        <form class="form-login" action="" method="POST">
+            <h2>Login</h2> 
+            
+            <div class= "form-inside">
+               <label  for="username"></label>
+                <input
+                    id="username"
+                    type= "text"
+                    name="usuario"
+                    value="Usuario"
+                    minlength="1"
+                    maxlength="15"
+                    required="" 
+                > <label></label>
+            </div>
+
+            <div class= "form-inside">
+                <label  for="Password"></label>
+                <input
+                    id="Password"
+                    type= "password"
+                    name="usuario"
+                    value="Contraseña"
+                    minlength="8"
+                    required="" 
+                > <label></label>
+            </div>
+        
+            <div class= "form-inside">
+                <div class= "boton-login">
+                
+                   <a href="/"><button class= "boton-login-enviar" type="submit">Enviar</button></a>
+                
+                </div>
+                
+            </div>
+        </form>
+
+    </main>
+
+    <%- include("./partials/footer.ejs") %>
+
+</body>
+</html>

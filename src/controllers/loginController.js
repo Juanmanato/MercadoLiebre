@@ -1,13 +1,11 @@
-const path = require('path');
-
 const loginController = {
     login: function (req, res) {
-        res.sendFile(path.join(__dirname, "../views/login.html"))
+        res.render("login.ejs")
        
     },
 
     register: function (req, res) {
-        res.sendFile(path.join(__dirname, "../views/register.html"))
+        res.render("register.ejs")
        
     },
 }
