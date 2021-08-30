@@ -1,9 +1,15 @@
 @media (min-width:480px) {
+    .linkInicio{
+        width: 45%;
+        margin: 0;
+        Padding: 0;
+    }
+
     .linea{
         display:block;
     }
     
-     .descripcion{
+    .descripcion{
         display:block;
     }
     .articulo{
@@ -38,11 +44,8 @@
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    .logo{
-        margin-left: 10px;
-        width:50%;
-        
-    }
+    
+    
     .barra{
         margin-left: 5px;
         width:50%;

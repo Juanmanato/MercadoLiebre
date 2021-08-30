@@ -2,7 +2,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+.linkInicio{
+    width: 100%;
+    margin: 0;
+    Padding: 0;
+}
 header{
     padding:24px;
     margin:0;
@@ -15,9 +19,8 @@ header{
     align-items: center;
 
 }
-.logo{
-    width:45%;
-}
+
+
 .barra{
     display: flex;
     align-items: center;
