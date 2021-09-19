@@ -1,0 +1,15 @@
+
+  <section>     
+    <div class= "flex">
+    <article class="articulo">
+        <a href="/productos/<%= produc.id %>"></a>
+        <img src= "/img/<%= produc.image %>", alt="Cafetera", width="100%" >
+        <article class= "articulo-descripcion"><%= produc.description %><i class="fas fa-truck-moving"></i>
+            <div><p class="precio"><%= produc.price - ((produc.price * produc.discount) / 100) %></p>
+            <p class="descuento"><%= produc.discount %> off</p></div>
+            <p class= "descripcion"><%= produc.name %></p>
+        </article>
+    </article>
+   
+    </div>
+</section>
